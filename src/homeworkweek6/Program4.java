@@ -16,14 +16,14 @@ public class Program4 {
     int a = 30; // instance variable
     int b = 40; // instance variable
     static String name = "Sonali";  // static variable
-    static String Surname = "Patel"; // static variable
+    static String surname = "Patel"; // static variable
 
 
     public void Test1() { // Instance method
         System.out.println(a); // 30
         System.out.println(b); // 40
         System.out.println(Program4.name); // Sonali
-        System.out.println(Program4.Surname); // Patel
+        System.out.println(Program4.surname); // Patel
     }
 
     public static void test2() { // Static method
@@ -31,7 +31,7 @@ public class Program4 {
         System.out.println(t.a); // 30
         System.out.println(t.b); // 40
         System.out.println(name);//Sonali
-        System.out.println(Surname);// Patel
+        System.out.println(surname);// Patel
 
 
     }

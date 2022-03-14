@@ -16,14 +16,14 @@ public class Program3 {
 
     public void Test1() { // Instance method
         System.out.println(a); // 100
-        System.out.println(Program4.name); // Sonali
+        System.out.println(Program3.name); // Sonali
 
     }
 
     public static void test2() { // Static method
         Program3 t = new Program3(); // t is object
-        System.out.println(t.a); // 100
-        System.out.println(name);//Sonali
+        System.out.println(t.a); // calling instance variable in static method
+        System.out.println(name);//static method call directly
 
 
     }
